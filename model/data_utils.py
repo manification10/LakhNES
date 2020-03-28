@@ -273,7 +273,7 @@ class Corpus(object):
                 kwargs['skip_short'] = True
                 kwargs['trim_padding'] = True
                 data_iter = LMMultiFileIterator(data, self.vocab, *args, **kwargs)
-                print("data_iter.paths",data_iter.paths)
+                print(split, "data_iter.paths",data_iter.paths)
 
         return data_iter
 
