@@ -1,13 +1,13 @@
 from collections import defaultdict
 
 INSTRUMENT_DATA = {
-  "DG": 18, "max_pitch": 108}, 
-  "AGP": 0, "max_pitch": 95}, 
-  "EBP":19, "max_pitch": 88}, 
-  "OG":12, "max_pitch": 103}, 
-  "EBF": 6, "max_pitch": 83}, 
-  "EGC": 5, "max_pitch": 100}, 
-  "AGS": {"min_pitch": 25, "max_pitch": 101}
+        "DG": {'min_pitch': 18, "max_pitch": 108}, 
+        "AGP":{'min_pitch': 0, "max_pitch": 95}, 
+        "EBP":{'min_pitch': 19, "max_pitch": 88}, 
+        "OG": {'min_pitch': 12, "max_pitch": 103}, 
+        "EBF":{'min_pitch': 6, "max_pitch": 83}, 
+        "EGC":{'min_pitch': 5, "max_pitch": 100}, 
+        "AGS":{'min_pitch': 25, "max_pitch": 101}
   }
 
 ALLOWED_INSTRUMENTS = list(INSTRUMENT_DATA.keys())
