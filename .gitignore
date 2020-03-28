@@ -1,5 +1,7 @@
 nesmdb_tx1/
 *.pyc
+*.mid
+*.tx1.txt
 LakhNES-model/
 LakhNES-synth/
 LakhNES-synth3/
